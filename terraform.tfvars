@@ -1,0 +1,5 @@
+ec2imageid       = "ami-0fae88c1e6794aa17"
+ec2type         = "t2.micro"
+connection_type = "ssh"
+keyname         = "MyTestKey"
+username        = "ec2-user"
