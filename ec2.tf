@@ -1,6 +1,6 @@
 resource "aws_instance" "MyInstance" {
   tags = {
-    Name = MyInstance_test
+    "Name" = "MyInstance_test"
   }
   ami           = var.ec2imageid
   instance_type = var.ec2type
